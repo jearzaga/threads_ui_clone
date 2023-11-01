@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:threads_ui_clone/screens/homepage.dart';
-import 'widgets/bottom_navbar.dart';
-import 'package:threads_ui_clone/screens/home.dart';
 
 void main() {
   runApp(const MyApp());
