@@ -113,7 +113,7 @@ class _HomePageState extends State<HomePage> {
                         width: 35,
                       ),
                       VerticalDivider(
-                        color: Colors.grey,
+                        color: Color.fromARGB(255, 206, 206, 206),
                         thickness: 2,
                       ),
                       SizedBox(
@@ -164,7 +164,7 @@ class _HomePageState extends State<HomePage> {
                               child: Text(
                                 "26 replies • 112 likes",
                                 style: TextStyle(
-                                  color: Colors.grey,
+                                  color: Color.fromARGB(255, 173, 173, 173),
                                   fontSize: 14,
                                   fontWeight: FontWeight.w500,
                                   height: 1.5,
@@ -190,17 +190,37 @@ class _HomePageState extends State<HomePage> {
           items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(
               icon: Image(
-                image: AssetImage("images/Home.png"),
+                image: AssetImage("images/home.png"),
                 width: 25,
               ),
               label: '',
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.search),
+              icon: Image(
+                image: AssetImage("images/search.png"),
+                width: 25,
+              ),
               label: '',
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.heart_broken_sharp),
+              icon: Image(
+                image: AssetImage("images/write.png"),
+                width: 25,
+              ),
+              label: '',
+            ),
+            BottomNavigationBarItem(
+              icon: Image(
+                image: AssetImage("images/activity.png"),
+                width: 25,
+              ),
+              label: '',
+            ),
+            BottomNavigationBarItem(
+              icon: Image(
+                image: AssetImage("images/profile.png"),
+                width: 25,
+              ),
               label: '',
             ),
           ],
